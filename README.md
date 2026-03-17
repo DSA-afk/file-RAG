@@ -16,11 +16,12 @@
 2. **向量检索**：纯语义搜索，适合概念查询
 3. **关键词检索**：精确匹配，适合代码搜索
 
+```text
 File-RAG/
-├── main.py                 # 主程序
-├── doc_qa_system.py       # 问答系统
-├── hybrid_retriever.py    # 混合检索器
-├── reranker.py            # 重排序模块
+├── main.py              # 主程序
+├── doc_qa_system.py     # 问答系统
+├── hybrid_retriever.py  # 混合检索器
+├── reranker.py          # 重排序模块
 └── requirements.txt
 
 # file-RAG
