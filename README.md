@@ -1,23 +1,14 @@
 
-# 案例2：技术文档问答系统
+# 技术文档问答系统
 
 > 基于混合检索和重排序的技术文档搜索系统
 
-## 快速开始
-
-\`\`\`bash
-pip install -r requirements.txt
-cp .env.example .env
-# 编辑.env添加API Key
-streamlit run main.py
-\`\`\`
-
 ## 功能特点
 
-- ✅ 混合检索（向量 + BM25）
-- ✅ CrossEncoder重排序
-- ✅ 代码示例高亮
-- ✅ 相关查询推荐
+- 混合检索（向量 + BM25）
+- CrossEncoder重排序
+- 代码示例高亮
+- 相关查询推荐
 
 ## 检索模式
 
